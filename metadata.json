@@ -1,0 +1,6 @@
+{
+  "name": "Solstice SMP",
+  "description": "Website Resmi Solstice SMP - Server Minecraft Survival Murni Tanpa Plugin Bedrock & Java Edition",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

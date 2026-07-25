@@ -1,0 +1,50 @@
+{
+  "name": "Solstice SMP",
+  "heroTitle": "Survival Murni Tanpa Plugin",
+  "heroSubtitle": "Pure Survival Experience",
+  "heroDescription": "Server Minecraft yang mengusung konsep survival murni tanpa plugin tambahan. Fokus pada pengalaman bermain vanilla dengan sistem whitelist berdasarkan gamertag untuk menjaga permainan tetap adil.",
+  "connection": {
+    "ip": "solsticeseason2.ddns.net",
+    "port": 25020,
+    "javaAddress": "solsticeseason2.ddns.net:25020",
+    "supportedEditions": [
+      "Java Edition",
+      "Bedrock Edition"
+    ]
+  },
+  "concept": [
+    "Server Survival murni.",
+    "Tidak menggunakan plugin.",
+    "Server dibuat untuk pemain yang benar-benar ingin bermain survival.",
+    "Seluruh pemain wajib mengirim Gamertag sebelum bergabung agar mencegah penggunaan akun lain untuk melakukan kecurangan."
+  ],
+  "rules": {
+    "allowed": [
+      "PvP",
+      "Raid Base",
+      "Menjarah Base",
+      "Membuat Team"
+    ],
+    "prohibited": [
+      "X-Ray",
+      "Cheat",
+      "Dupe",
+      "Bug Abuse",
+      "Glitch"
+    ]
+  },
+  "world": {
+    "border": "8000 x 8000",
+    "shape": "Square",
+    "centerX": 0,
+    "centerZ": 0,
+    "minX": -4000,
+    "maxX": 4000,
+    "minZ": -4000,
+    "maxZ": 4000
+  },
+  "socials": {
+    "whatsappGroup": "https://chat.whatsapp.com/JOePs9rsz0A39j4IwHmQYz?s=cl&p=a&ilr=4",
+    "donationPhone": "087811592808"
+  }
+}

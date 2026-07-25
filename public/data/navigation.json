@@ -1,0 +1,8 @@
+[
+  { "id": "home", "label": "Home", "path": "/" },
+  { "id": "server", "label": "Server", "path": "/server" },
+  { "id": "rules", "label": "Rules", "path": "/rules" },
+  { "id": "join", "label": "Join", "path": "/join" },
+  { "id": "community", "label": "Community", "path": "/community" },
+  { "id": "about", "label": "About", "path": "/about" }
+]
