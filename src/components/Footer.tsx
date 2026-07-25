@@ -1,6 +1,7 @@
 import React from 'react';
 import { ExternalLink, ShieldCheck, Heart, Code, Globe, MessageSquare } from 'lucide-react';
 import { DeveloperData } from '../types';
+import { solsticeLogo } from '../assets/images';
 
 interface FooterProps {
   developerData: DeveloperData | null;
@@ -19,7 +20,7 @@ export const Footer: React.FC<FooterProps> = ({ developerData, onNavigate }) => 
           <div className="space-y-4">
             <div className="flex items-center gap-3">
               <img
-                src="/src/assets/images/solstice_logo_1784981126871.jpg"
+                src={solsticeLogo}
                 alt="Solstice SMP Logo"
                 className="w-10 h-10 rounded-lg border border-emerald-500/40 object-cover"
               />

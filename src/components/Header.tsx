@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, ExternalLink, ShieldCheck, Code, Globe, MessageSquare, Terminal } from 'lucide-react';
 import { DeveloperData, NavigationItem } from '../types';
+import { solsticeLogo } from '../assets/images';
 
 interface HeaderProps {
   currentPath: string;
@@ -54,7 +55,7 @@ export const Header: React.FC<HeaderProps> = ({
           >
             <div className="relative overflow-hidden rounded-lg border border-emerald-500/30 p-0.5 bg-emerald-950/40 group-hover:border-emerald-400 transition-colors">
               <img
-                src="/src/assets/images/solstice_logo_1784981126871.jpg"
+                src={solsticeLogo}
                 alt="Solstice SMP Logo"
                 className={`transition-all duration-300 object-cover rounded-md ${
                   isScrolled ? 'w-8 h-8' : 'w-10 h-10'

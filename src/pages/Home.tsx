@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { Copy, Check, ExternalLink, ShieldCheck, Gamepad2, Users, Flame, Globe, Compass, ArrowRight, Server, ShieldAlert } from 'lucide-react';
 import { ServerConfig, ServerStatus } from '../types';
+import { solsticeHeroBg } from '../assets/images';
+import { solsticeHeroBg } from '../assets/images';
 
 interface HomeProps {
   serverConfig: ServerConfig;
@@ -46,7 +48,7 @@ export const Home: React.FC<HomeProps> = ({
         {/* Fullscreen Hero Image Background */}
         <div className="absolute inset-0 z-0">
           <img
-            src="/src/assets/images/solstice_hero_bg_1784981112150.jpg"
+            src={solsticeHeroBg}
             alt="Solstice SMP Floating Island Background"
             className="w-full h-full object-cover object-center scale-105 filter brightness-90 transform animate-pulse-slow"
           />

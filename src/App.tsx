@@ -9,6 +9,7 @@ import {
 import { Header } from './components/Header';
 import { Footer } from './components/Footer';
 import { Toast } from './components/Toast';
+import { solsticeLogo, solsticeHeroBg } from './assets/images';
 
 import { Home } from './pages/Home';
 import { ServerPage } from './pages/ServerPage';
